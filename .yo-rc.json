@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.improvelife.app"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "improvelife",
+    "packageName": "com.improvelife.app",
+    "packageFolder": "com/improvelife/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2RiNzA3NTdmYmNmMGY1ZmIwZGQ1MWYxYjA5YTZkMDFlNWI3NmU0MmE2ZmVkMGI1N2FmNjI1ZjZmNzI4NDU1OTFlOTQxZTA4MGVlYWU0MGVlZDNiYjg0YzFjZDBkOWJlMzY5ODk3MjVlZDc2NGE4MWI5N2E4YTgxZjA0ZDdmZDQ=",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "primary",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
