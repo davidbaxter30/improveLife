@@ -5,6 +5,7 @@ import authentication, { AuthenticationState } from './authentication';
 import applicationProfile, { ApplicationProfileState } from './application-profile';
 
 import administration, { AdministrationState } from 'app/modules/administration/administration.reducer';
+import healthyFood, { HealthyFoodState } from 'app/modules/health-menu/health-menu.reducer';
 import userManagement, { UserManagementState } from 'app/modules/administration/user-management/user-management.reducer';
 import register, { RegisterState } from 'app/modules/account/register/register.reducer';
 import activate, { ActivateState } from 'app/modules/account/activate/activate.reducer';
@@ -17,6 +18,7 @@ export interface IRootState {
   readonly authentication: AuthenticationState;
   readonly applicationProfile: ApplicationProfileState;
   readonly administration: AdministrationState;
+  readonly healthyFood: HealthyFoodState;
   readonly userManagement: UserManagementState;
   readonly register: RegisterState;
   readonly activate: ActivateState;
@@ -31,6 +33,7 @@ const rootReducer = combineReducers<IRootState>({
   authentication,
   applicationProfile,
   administration,
+  healthyFood,
   userManagement,
   register,
   activate,
